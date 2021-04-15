@@ -13,8 +13,8 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>ברוכים הבאים למועדון המתכון</h1>
         <p className={styles.description}>בלי חפירות, רק מתכונים</p>
-        <div class="actions">
-          <Link href="/search.js">
+        <div classNames="actions">
+          <Link href="/search">
             <a>חיפוש מתכון</a>
           </Link>
           <Link href="/addMatkon.js">
